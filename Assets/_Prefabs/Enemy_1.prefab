@@ -40,7 +40,6 @@ GameObject:
   - component: {fileID: 54274829760524626}
   - component: {fileID: 114629654927042114}
   - component: {fileID: 114903303824605412}
-  - component: {fileID: 114563856057261144}
   m_Layer: 9
   m_Name: Enemy_1
   m_TagString: Enemy
@@ -206,23 +205,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
---- !u!114 &114563856057261144
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1840228967559562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad09e1497d2627e4590c70abf8e49590, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabEnemies: []
-  enemySpawnPerSecond: 0.5
-  enemyDefualtPadding: 1.5
-  weaponDefinitions: []
-  prefabPowerUp: {fileID: 0}
-  powerUpFrequency: 01000000010000000200000005000000
 --- !u!114 &114629654927042114
 MonoBehaviour:
   m_ObjectHideFlags: 1
